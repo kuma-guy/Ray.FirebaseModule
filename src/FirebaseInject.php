@@ -20,7 +20,7 @@ trait FirebaseInject
      *
      * @\Ray\Di\Di\Inject
      */
-    public function setAuraSql(FirebaseInterface $firebase = null)
+    public function setFirebase(FirebaseInterface $firebase = null)
     {
         $this->firebase = $firebase;
     }
