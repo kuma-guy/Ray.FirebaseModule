@@ -1,0 +1,23 @@
+{
+    "name": "ray/firebase-module",
+    "description":"firebase module for Ray.Di",
+    "keywords":[
+        "Ray.Di Module", "Firebase"
+    ],
+    "license": "MIT",
+    "require": {
+        "ray/di": "~2.0",
+        "ktamas77/firebase-php": "^2.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Ray\\FirebaseModule\\": "src/"
+        },
+        "files": ["doctrine_annotations.php"]
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Ray\\FirebaseModule\\": "tests/"
+        }
+    }
+}
