@@ -37,8 +37,8 @@ class FirebaseProvider implements ProviderInterface
      */
     public function get()
     {
-        $fb = new FirebaseLib($this->url, $this->token);
+        $firebase = new FirebaseLib($this->url, $this->token);
 
-        return $fb;
+        return $firebase;
     }
 }
